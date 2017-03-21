@@ -1,0 +1,571 @@
+﻿Log file open, 03/20/17 14:29:29
+LogInit:Display: Running engine for game: Prototype
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(741288378) SRandInit(741288378).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083452
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogModuleManager:Warning: No filename provided for module OnlineSubsystem<Default Platform Identifier>
+LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystem<Default Platform Identifier>' because the file 'D:/Program Files (x86)/Epic Games/UE_4.15/Engine/Binaries/Win64/' was not found.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.20-18.29.30:708][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.20-18.29.30:708][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.20-18.29.30:715][  0]LogInit: Computer: DESKTOP-555TD66
+[2017.03.20-18.29.30:715][  0]LogInit: User: AkshayRachapudi
+[2017.03.20-18.29.30:715][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.20-18.29.30:715][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2017.03.20-18.29.30:715][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.20-18.29.30:715][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.20-18.29.30:715][  0]LogMemory: Process Physical Memory: 266.63 MB used, 266.63 MB peak
+[2017.03.20-18.29.30:715][  0]LogMemory: Process Virtual Memory: 262.96 MB used, 262.96 MB peak
+[2017.03.20-18.29.30:715][  0]LogMemory: Physical Memory: 4472.88 MB used,  11810.72 MB free, 16283.60 MB total
+[2017.03.20-18.29.30:715][  0]LogMemory: Virtual Memory: 646.58 MB used,  11810.72 MB free, 134217728.00 MB total
+[2017.03.20-18.29.30:784][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.20-18.29.31:423][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.20-18.29.31:461][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.03.20-18.29.31:461][  0]LogD3D11RHI:       3037/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.20-18.29.31:469][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.03.20-18.29.31:469][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.20-18.29.31:470][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.20-18.29.31:470][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.20-18.29.31:470][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.20-18.29.31:475][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.20-18.29.31:475][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.20-18.29.31:475][  0]LogWindows: EnumDisplayDevices:
+[2017.03.20-18.29.31:475][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.03.20-18.29.31:475][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.03.20-18.29.31:475][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.03.20-18.29.31:476][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M' (P:0 D:0)
+[2017.03.20-18.29.31:476][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2017.03.20-18.29.31:476][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.03.20-18.29.31:476][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2017.03.20-18.29.31:476][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2017.03.20-18.29.31:476][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.20-18.29.31:494][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.20-18.29.31:505][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.20-18.29.31:506][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../AKSHAY/School/Prototype0320-1/Prototype0320-1/Prototype/Intermediate/Shaders/WorkingDirectory/28684/).
+[2017.03.20-18.29.31:506][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Akshay Rachapudi/AppData/Local/Temp/UnrealShaderWorkingDir/38614D104A04B016B55C9EB9E05E6765/'.
+[2017.03.20-18.29.31:506][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.20-18.29.32:536][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.20-18.29.32:579][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.20-18.29.32:622][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.20-18.29.32:666][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.20-18.29.32:713][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.20-18.29.32:757][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.20-18.29.32:800][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.20-18.29.32:844][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.20-18.29.32:878][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.20-18.29.32:921][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.20-18.29.32:964][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.20-18.29.33:007][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.20-18.29.33:048][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.20-18.29.33:092][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.20-18.29.33:135][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.20-18.29.33:226][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.20-18.29.33:226][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.20-18.29.33:251][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.20-18.29.33:332][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.20-18.29.33:361][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.20-18.29.33:403][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.20-18.29.33:447][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.20-18.29.33:489][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.20-18.29.33:532][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.20-18.29.33:532][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.20-18.29.33:847][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.20-18.29.33:905][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Akshay Rachapudi/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.20-18.29.33:905][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Akshay Rachapudi/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.20-18.29.33:905][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../AKSHAY/School/Prototype0320-1/Prototype0320-1/Prototype/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.20-18.29.33:905][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.20-18.29.33:905][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../AKSHAY/School/Prototype0320-1/Prototype0320-1/Prototype/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.20-18.29.33:905][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.20-18.29.33:923][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.20-18.29.33:935][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Akshay Rachapudi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.20-18.29.33:944][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.20-18.29.33:944][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.20-18.29.33:944][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.20-18.29.34:182][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.20-18.29.34:184][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.20-18.29.34:353][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.20-18.29.34:385][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.20-18.29.34:416][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.20-18.29.34:416][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.20-18.29.34:416][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.20-18.29.34:915][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: prototype, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2467209700
+[2017.03.20-18.29.34:957][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.03.20-18.29.34:993][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.018828 seconds
+[2017.03.20-18.29.34:997][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.20-18.29.34:997][  0]LogUObjectAllocator: 7073368 out of 0 bytes used by permanent object pool.
+[2017.03.20-18.29.34:997][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.20-18.29.36:283][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.20-18.29.36:315][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.20-18.29.36:653][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.20-18.29.36:937][  0]SourceControl: Info Source control is disabled
+[2017.03.20-18.29.37:018][  0]SourceControl: Info Source control is disabled
+[2017.03.20-18.29.37:052][  0]SourceControl: Info Source control is disabled
+[2017.03.20-18.29.37:083][  0]SourceControl: Info Source control is disabled
+[2017.03.20-18.29.37:938][  0]LogEngine: Initializing Engine...
+[2017.03.20-18.29.37:938][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.20-18.29.38:142][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.20-18.29.38:149][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-18.29.38:171][  0]LogInit: FAudioDevice initialized.
+[2017.03.20-18.29.38:198][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Akshay Rachapudi/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.20-18.29.38:204][  0]LogInit: Texture streaming: Enabled
+[2017.03.20-18.29.38:277][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.20-18.29.38:345][  0]LogInit: Transaction tracking system initialized
+[2017.03.20-18.29.38:606][  0]BlueprintLog: New page: Editor Load
+[2017.03.20-18.29.39:265][  0]LocalizationService: Info Localization service is disabled
+[2017.03.20-18.29.39:766][  0]LogConsoleResponse:Display: 
+[2017.03.20-18.29.39:886][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.20-18.29.39:886][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.20-18.29.40:319][  0]LogFileCache: Scanning file cache for directory 'D:/AKSHAY/School/Prototype0320-1/Prototype0320-1/Prototype/Content/' took 0.01s
+[2017.03.20-18.29.40:657][  0]SourceControl: Info Source control is disabled
+[2017.03.20-18.29.40:657][  0]Cmd: MAP LOAD FILE="../../../../../../AKSHAY/School/Prototype0320-1/Prototype0320-1/Prototype/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.20-18.29.40:657][  0]LightingResults: New page: Lighting Build
+[2017.03.20-18.29.40:689][  0]MapCheck: New page: Map Check
+[2017.03.20-18.29.40:689][  0]LightingResults: New page: Lighting Build
+[2017.03.20-18.29.41:204][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.03.20-18.29.41:216][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.20-18.29.41:217][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.20-18.29.41:248][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.576ms to complete.
+[2017.03.20-18.29.41:248][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.591
+[2017.03.20-18.29.41:319][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.20-18.29.41:319][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.20-18.29.41:437][  0]LogCollectionManager: Loaded 0 collections in 0.001137 seconds
+[2017.03.20-18.29.41:508][  0]LogFileCache: Scanning file cache for directory 'D:/AKSHAY/School/Prototype0320-1/Prototype0320-1/Prototype/Saved/Collections/' took 0.01s
+[2017.03.20-18.29.41:508][  0]LogFileCache: Scanning file cache for directory 'D:/AKSHAY/School/Prototype0320-1/Prototype0320-1/Prototype/Content/Developers/AkshayRachapudi/Collections/' took 0.01s
+[2017.03.20-18.29.41:508][  0]LogFileCache: Scanning file cache for directory 'D:/AKSHAY/School/Prototype0320-1/Prototype0320-1/Prototype/Content/Collections/' took 0.01s
+[2017.03.20-18.29.41:508][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.03.20-18.29.41:517][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2244 classes and 450 folders.
+[2017.03.20-18.29.41:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.20-18.29.41:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.20-18.29.41:563][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.20-18.29.41:595][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.20-18.29.41:626][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.20-18.29.41:672][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.20-18.29.41:685][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.20-18.29.41:741][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.20-18.29.41:741][  0]LogLoad: (Engine Initialization) Total time: 12.73 seconds
+[2017.03.20-18.29.41:741][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.03.20-18.29.41:742][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.20-18.29.41:742][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.20-18.29.41:755][  0]LogOcInput: OculusInput pre-init called
+[2017.03.20-18.29.41:778][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.20-18.29.41:779][  0]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.20-18.29.41:783][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.20-18.29.41:788][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.20-18.29.41:896][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.20-18.29.41:950][  0]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:2).
+[2017.03.20-18.29.42:041][  1]LogAssetRegistry: Asset discovery search completed in 7.1053 seconds
+[2017.03.20-18.29.42:041][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.03.20-18.29.42:041][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2017.03.20-18.29.42:772][ 65]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.20-18.29.44:322][212]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.20-18.29.44:377][212]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.03.20-18.29.44:444][212]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.03.20-18.29.44:492][212]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT)
+[2017.03.20-18.29.44:521][212]LogAIModule: Creating AISystem for world NewMap
+[2017.03.20-18.29.44:548][212]Cmd: MAP LOAD FILE="../../../../../../AKSHAY/School/Prototype0320-1/Prototype0320-1/Prototype/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.20-18.29.44:548][212]LightingResults: New page: Lighting Build
+[2017.03.20-18.29.44:550][212]LoadErrors: New page: Loading map: NewMap.umap
+[2017.03.20-18.29.44:551][212]MapCheck: New page: Map Check
+[2017.03.20-18.29.44:551][212]LightingResults: New page: Lighting Build
+[2017.03.20-18.29.44:587][212]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.20-18.29.44:602][212]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.20-18.29.44:636][212]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.446ms to complete.
+[2017.03.20-18.29.44:636][212]LogFileHelpers: Loading map 'NewMap' took 0.089
+[2017.03.20-18.29.57:548][655]LogActorFactory: Actor Factory created Sphere
+[2017.03.20-18.30.01:588][111]LogActorFactory: Actor Factory created Sphere
+[2017.03.20-18.30.03:775][327]LogEditorViewport: Clicking on Actor (LMB): EditorCube_Blueprint_C (EditorCube_Blueprint)
+[2017.03.20-18.30.06:156][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.03.20-18.31.10:154][627]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.20-18.31.13:020][937]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.20-18.31.13:031][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.20-18.31.13:031][937]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.31.13:031][937]LogModuleManager:Warning: No filename provided for module OnlineSubsystem<Default Platform Identifier>
+[2017.03.20-18.31.13:031][937]LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystem<Default Platform Identifier>' because the file 'D:/Program Files (x86)/Epic Games/UE_4.15/Engine/Binaries/Win64/' was not found.
+[2017.03.20-18.31.13:045][937]PIE: New page: PIE session: NewMap (Mar 20, 2017, 10:31:13 AM)
+[2017.03.20-18.31.13:045][937]LogPlayLevel: Creating play world package: /Game/UEDPIE_1_NewMap
+[2017.03.20-18.31.13:052][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007548s)
+[2017.03.20-18.31.13:053][937]LogAIModule: Creating AISystem for world NewMap
+[2017.03.20-18.31.13:053][937]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2017.03.20-18.31.13:053][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_1_NewMap.NewMap (0.008783s)
+[2017.03.20-18.31.13:067][937]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-18.31.13:076][937]LogInit: FAudioDevice initialized.
+[2017.03.20-18.31.13:113][937]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_5a38_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OnlineAsyncTaskThreadNull DefaultInstance///Thread_3118_0///####STATCAT_Advanced####
+[2017.03.20-18.31.13:145][937]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.20-18.31.13:148][937]LogWorld: Bringing World /Game/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.03.20-14.31.13
+[2017.03.20-18.31.13:148][937]LogWorld: Bringing up level for play took: 0.001133
+[2017.03.20-18.31.13:210][937]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.03.20-18.31.13:212][937]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.03.20-18.31.13:212][937]LogInit: WinSock: I am DESKTOP-555TD66 (192.168.1.98:0)
+[2017.03.20-18.31.13:212][937]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.20-18.31.13:212][937]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.03.20-18.31.13:217][937]PIE: Info Play in editor start time for /Game/UEDPIE_1_NewMap 0.384
+[2017.03.20-18.31.13:220][937]PIE: New page: PIE session: NewMap (Mar 20, 2017, 10:31:13 AM)
+[2017.03.20-18.31.13:287][937]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2017.03.20-18.31.13:287][937]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.03.20-18.31.13:288][937]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.20-18.31.13:288][937]LogNet: Game client on port 7777, rate 10000
+[2017.03.20-18.31.13:288][937]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: prototype, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3353027705
+[2017.03.20-18.31.13:288][937]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.03.20-18.31.13:294][937]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 0.461
+[2017.03.20-18.31.13:313][937]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63131
+[2017.03.20-18.31.13:313][937]LogHandshake: SendConnectChallenge. Timestamp: 0.008883, Cookie: 250179013094091114163102198235146122001096242243189129038186
+[2017.03.20-18.31.13:338][937]LogHandshake: SendChallengeResponse. Timestamp: 0.008883, Cookie: 250179013094091114163102198235146122001096242243189129038186
+[2017.03.20-18.31.13:364][937]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:14063).
+[2017.03.20-18.31.13:447][938]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63131
+[2017.03.20-18.31.13:447][938]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63131
+[2017.03.20-18.31.13:447][938]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.20-18.31.13:447][938]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 03/20/17 14:31:13, [UNetConnection] RemoteAddr: 127.0.0.1:63131, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.20-18.31.13:447][938]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63131, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.20-18.31.13:447][938]LogNet: NotifyAcceptingChannel Control 0 server World /Game/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.03.20-18.31.13:447][938]LogNet: Remote platform little endian=1
+[2017.03.20-18.31.13:447][938]LogNet: This platform little endian=1
+[2017.03.20-18.31.13:506][939]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=DESKTOP-555TD66-1FDD01354911CEB6805F50A900ED2F92 userId: DESKTOP-555TD66-1FDD01354911CEB6805F50A900ED2F92
+[2017.03.20-18.31.13:508][939]LogNet: Welcomed by server (Level: /Game/UEDPIE_1_NewMap, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2017.03.20-18.31.13:509][939]LogLoad: LoadMap: 127.0.0.1//Game/UEDPIE_1_NewMap?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2017.03.20-18.31.13:539][939]Cmd: MEM
+[2017.03.20-18.31.13:551][939]LogMemory: Platform Memory Stats for Windows
+[2017.03.20-18.31.13:551][939]LogMemory: Process Physical Memory: 1252.17 MB used, 1252.17 MB peak
+[2017.03.20-18.31.13:551][939]LogMemory: Process Virtual Memory: 1914.37 MB used, 1914.37 MB peak
+[2017.03.20-18.31.13:551][939]LogMemory: Physical Memory: 5525.34 MB used,  10758.26 MB free, 16283.60 MB total
+[2017.03.20-18.31.13:551][939]LogMemory: Virtual Memory: 2651.79 MB used,  10758.26 MB free, 134217728.00 MB total
+[2017.03.20-18.31.13:551][939]LogMemory: 
+[2017.03.20-18.31.13:551][939]Allocator Stats for TBB: (not implemented)
+[2017.03.20-18.31.13:560][939]LogAIModule: Creating AISystem for world NewMap
+[2017.03.20-18.31.13:563][939]LogWorld: Bringing World /Game/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.03.20-14.31.13
+[2017.03.20-18.31.13:563][939]LogWorld: Bringing up level for play took: 0.001101
+[2017.03.20-18.31.13:564][939]LogLoad: Took 0.054899 seconds to LoadMap(/Game/UEDPIE_1_NewMap)
+[2017.03.20-18.31.13:586][940]LogNet: Client netspeed is 10000
+[2017.03.20-18.31.13:586][940]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=DESKTOP-555TD66-1FDD01354911CEB6805F50A900ED2F92?SplitscreenCount=1
+[2017.03.20-18.31.13:586][940]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.03.20-18.31.13:590][940]LogNet: Join succeeded: DESKTOP-555TD66-1FDD
+[2017.03.20-18.31.13:630][942]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.03.20-18.31.13:644][943]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.03.20-18.31.14:820][ 38]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor FirstPersonProjectile_C_0. Function ServerHit will not be processed.
+[2017.03.20-18.31.17:337][248]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.31.17:339][248]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.03.20-18.31.17:385][248]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.31.17:386][248]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.20-18.31.17:436][248]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63131, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.03.20-18.31.17:436][248]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63131, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.03.20-18.31.17
+[2017.03.20-18.31.17:436][248]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63131, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.03.20-18.31.17:436][248]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.03.20-18.31.17:436][248]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.03.20-18.31.17
+[2017.03.20-18.31.17:436][248]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.03.20-18.31.17:441][248]LogExit: GameNetDriver None shut down
+[2017.03.20-18.31.17:441][248]LogExit: GameNetDriver None shut down
+[2017.03.20-18.31.17:486][249]LogPlayLevel:Display: Destroying online subsystem :Context_7
+[2017.03.20-18.31.17:486][249]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.31.17:486][249]LogPlayLevel:Display: Destroying online subsystem :Context_6
+[2017.03.20-18.31.17:486][249]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.31.22:599][812]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.20-18.31.22:609][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.20-18.31.22:611][812]PIE: New page: PIE session: NewMap (Mar 20, 2017, 10:31:22 AM)
+[2017.03.20-18.31.22:611][812]LogPlayLevel: Creating play world package: /Game/UEDPIE_1_NewMap
+[2017.03.20-18.31.22:617][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005872s)
+[2017.03.20-18.31.22:618][812]LogAIModule: Creating AISystem for world NewMap
+[2017.03.20-18.31.22:618][812]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.03.20-18.31.22:618][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_1_NewMap.NewMap (0.006731s)
+[2017.03.20-18.31.22:629][812]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-18.31.22:638][812]LogInit: FAudioDevice initialized.
+[2017.03.20-18.31.22:681][812]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.20-18.31.22:684][812]LogWorld: Bringing World /Game/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.03.20-14.31.22
+[2017.03.20-18.31.22:684][812]LogWorld: Bringing up level for play took: 0.001034
+[2017.03.20-18.31.22:699][812]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.03.20-18.31.22:699][812]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.20-18.31.22:699][812]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2017.03.20-18.31.22:703][812]PIE: Info Play in editor start time for /Game/UEDPIE_1_NewMap -0.129
+[2017.03.20-18.31.22:705][812]PIE: New page: PIE session: NewMap (Mar 20, 2017, 10:31:22 AM)
+[2017.03.20-18.31.22:762][812]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2017.03.20-18.31.22:762][812]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.03.20-18.31.22:763][812]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.20-18.31.22:763][812]LogNet: Game client on port 7777, rate 10000
+[2017.03.20-18.31.22:763][812]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2017.03.20-18.31.22:766][812]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.066
+[2017.03.20-18.31.22:787][812]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63132
+[2017.03.20-18.31.22:787][812]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 074073090134171008252114142172103067239013072092233054078185
+[2017.03.20-18.31.22:788][812]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 074073090134171008252114142172103067239013072092233054078185
+[2017.03.20-18.31.22:890][813]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:63132
+[2017.03.20-18.31.22:890][813]LogNet: Server accepting post-challenge connection from: 127.0.0.1:63132
+[2017.03.20-18.31.22:890][813]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.20-18.31.22:890][813]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 03/20/17 14:31:22, [UNetConnection] RemoteAddr: 127.0.0.1:63132, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.20-18.31.22:890][813]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:63132, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.20-18.31.22:890][813]LogNet: NotifyAcceptingChannel Control 0 server World /Game/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.03.20-18.31.22:890][813]LogNet: Remote platform little endian=1
+[2017.03.20-18.31.22:890][813]LogNet: This platform little endian=1
+[2017.03.20-18.31.22:915][814]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=DESKTOP-555TD66-C794CA404B65B813FE266DA3E68D2978 userId: DESKTOP-555TD66-C794CA404B65B813FE266DA3E68D2978
+[2017.03.20-18.31.22:918][814]LogNet: Welcomed by server (Level: /Game/UEDPIE_1_NewMap, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2017.03.20-18.31.22:918][814]LogLoad: LoadMap: 127.0.0.1//Game/UEDPIE_1_NewMap?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2017.03.20-18.31.22:937][814]Cmd: MEM
+[2017.03.20-18.31.22:950][814]LogMemory: Platform Memory Stats for Windows
+[2017.03.20-18.31.22:950][814]LogMemory: Process Physical Memory: 1266.12 MB used, 1311.00 MB peak
+[2017.03.20-18.31.22:950][814]LogMemory: Process Virtual Memory: 1828.91 MB used, 1962.89 MB peak
+[2017.03.20-18.31.22:950][814]LogMemory: Physical Memory: 5542.14 MB used,  10741.46 MB free, 16283.60 MB total
+[2017.03.20-18.31.22:950][814]LogMemory: Virtual Memory: 2648.54 MB used,  10741.46 MB free, 134217728.00 MB total
+[2017.03.20-18.31.22:950][814]LogMemory: 
+[2017.03.20-18.31.22:950][814]Allocator Stats for TBB: (not implemented)
+[2017.03.20-18.31.22:956][814]LogAIModule: Creating AISystem for world NewMap
+[2017.03.20-18.31.22:961][814]LogWorld: Bringing World /Game/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.03.20-14.31.22
+[2017.03.20-18.31.22:961][814]LogWorld: Bringing up level for play took: 0.001293
+[2017.03.20-18.31.22:961][814]LogLoad: Took 0.043091 seconds to LoadMap(/Game/UEDPIE_1_NewMap)
+[2017.03.20-18.31.22:978][815]LogNet: Client netspeed is 10000
+[2017.03.20-18.31.22:978][815]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=DESKTOP-555TD66-C794CA404B65B813FE266DA3E68D2978?SplitscreenCount=1
+[2017.03.20-18.31.22:979][815]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.03.20-18.31.22:982][815]LogNet: Join succeeded: DESKTOP-555TD66-C794
+[2017.03.20-18.31.23:035][819]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.03.20-18.31.23:089][823]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.03.20-18.31.28:120][258]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor FirstPersonProjectile_C_0. Function ServerHit will not be processed.
+[2017.03.20-18.31.35:174][866]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor FirstPersonProjectile_C_1. Function ServerHit will not be processed.
+[2017.03.20-18.31.35:185][867]LogScript:Warning: Accessed None trying to read property K2Node_CustomEvent_Other
+	FirstPersonProjectile_C /Game/UEDPIE_1_NewMap.NewMap:PersistentLevel.FirstPersonProjectile_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:005E
+[2017.03.20-18.31.35:185][867]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_CustomEvent_Other
+[2017.03.20-18.31.35:185][867]LogScript:Warning: Accessed None trying to read property K2Node_CustomEvent_Other
+	FirstPersonProjectile_C /Game/UEDPIE_1_NewMap.NewMap:PersistentLevel.FirstPersonProjectile_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0095
+[2017.03.20-18.31.35:185][867]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_CustomEvent_Other
+[2017.03.20-18.31.35:185][867]LogScript:Warning: Accessed None trying to read property K2Node_CustomEvent_Other
+	FirstPersonProjectile_C /Game/UEDPIE_1_NewMap.NewMap:PersistentLevel.FirstPersonProjectile_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:02C3
+[2017.03.20-18.31.35:185][867]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_CustomEvent_Other
+[2017.03.20-18.31.35:514][896]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor FirstPersonProjectile_C_1. Function ServerHit will not be processed.
+[2017.03.20-18.31.35:522][897]LogScript:Warning: Accessed None trying to read property K2Node_CustomEvent_Other
+	FirstPersonProjectile_C /Game/UEDPIE_1_NewMap.NewMap:PersistentLevel.FirstPersonProjectile_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:005E
+[2017.03.20-18.31.35:523][897]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_CustomEvent_Other
+[2017.03.20-18.31.35:523][897]LogScript:Warning: Accessed None trying to read property K2Node_CustomEvent_Other
+	FirstPersonProjectile_C /Game/UEDPIE_1_NewMap.NewMap:PersistentLevel.FirstPersonProjectile_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0095
+[2017.03.20-18.31.35:523][897]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_CustomEvent_Other
+[2017.03.20-18.31.35:523][897]LogScript:Warning: Accessed None trying to read property K2Node_CustomEvent_Other
+	FirstPersonProjectile_C /Game/UEDPIE_1_NewMap.NewMap:PersistentLevel.FirstPersonProjectile_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:02C3
+[2017.03.20-18.31.35:523][897]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_CustomEvent_Other
+[2017.03.20-18.31.35:752][917]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor FirstPersonProjectile_C_1. Function ServerHit will not be processed.
+[2017.03.20-18.31.35:951][935]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor FirstPersonProjectile_C_1. Function ServerHit will not be processed.
+[2017.03.20-18.31.35:961][936]LogScript:Warning: Accessed None trying to read property K2Node_CustomEvent_Other
+	FirstPersonProjectile_C /Game/UEDPIE_1_NewMap.NewMap:PersistentLevel.FirstPersonProjectile_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:005E
+[2017.03.20-18.31.35:961][936]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_CustomEvent_Other
+[2017.03.20-18.31.35:961][936]LogScript:Warning: Accessed None trying to read property K2Node_CustomEvent_Other
+	FirstPersonProjectile_C /Game/UEDPIE_1_NewMap.NewMap:PersistentLevel.FirstPersonProjectile_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0095
+[2017.03.20-18.31.35:962][936]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_CustomEvent_Other
+[2017.03.20-18.31.35:962][936]LogScript:Warning: Accessed None trying to read property K2Node_CustomEvent_Other
+	FirstPersonProjectile_C /Game/UEDPIE_1_NewMap.NewMap:PersistentLevel.FirstPersonProjectile_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:02C3
+[2017.03.20-18.31.35:962][936]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_CustomEvent_Other
+[2017.03.20-18.31.36:229][960]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor FirstPersonProjectile_C_1. Function ServerHit will not be processed.
+[2017.03.20-18.31.36:248][962]LogScript:Warning: Accessed None trying to read property K2Node_CustomEvent_Other
+	FirstPersonProjectile_C /Game/UEDPIE_1_NewMap.NewMap:PersistentLevel.FirstPersonProjectile_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:005E
+[2017.03.20-18.31.36:249][962]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_CustomEvent_Other
+[2017.03.20-18.31.36:249][962]LogScript:Warning: Accessed None trying to read property K2Node_CustomEvent_Other
+	FirstPersonProjectile_C /Game/UEDPIE_1_NewMap.NewMap:PersistentLevel.FirstPersonProjectile_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:0095
+[2017.03.20-18.31.36:249][962]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_CustomEvent_Other
+[2017.03.20-18.31.36:249][962]LogScript:Warning: Accessed None trying to read property K2Node_CustomEvent_Other
+	FirstPersonProjectile_C /Game/UEDPIE_1_NewMap.NewMap:PersistentLevel.FirstPersonProjectile_C_1
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:02C3
+[2017.03.20-18.31.36:249][962]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Other from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Accessed None trying to read property K2Node_CustomEvent_Other
+[2017.03.20-18.31.36:459][977]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.31.36:460][977]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.03.20-18.31.36:507][977]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.31.36:508][977]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.20-18.31.36:557][977]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63132, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.03.20-18.31.36:557][977]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:63132, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.03.20-18.31.36
+[2017.03.20-18.31.36:557][977]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:63132, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.03.20-18.31.36:557][977]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.03.20-18.31.36:557][977]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.03.20-18.31.36
+[2017.03.20-18.31.36:557][977]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.03.20-18.31.36:562][977]LogExit: GameNetDriver None shut down
+[2017.03.20-18.31.36:562][977]LogExit: GameNetDriver None shut down
+[2017.03.20-18.31.36:614][978]LogPlayLevel:Display: Destroying online subsystem :Context_9
+[2017.03.20-18.31.36:614][978]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.31.36:614][978]LogPlayLevel:Display: Destroying online subsystem :Context_8
+[2017.03.20-18.31.36:614][978]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.31.38:609][180]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.20-18.31.38:618][180]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.20-18.31.38:620][180]PIE: New page: PIE session: NewMap (Mar 20, 2017, 10:31:38 AM)
+[2017.03.20-18.31.38:620][180]LogPlayLevel: Creating play world package: /Game/UEDPIE_1_NewMap
+[2017.03.20-18.31.38:627][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006591s)
+[2017.03.20-18.31.38:627][180]LogAIModule: Creating AISystem for world NewMap
+[2017.03.20-18.31.38:628][180]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2017.03.20-18.31.38:628][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_1_NewMap.NewMap (0.007563s)
+[2017.03.20-18.31.38:639][180]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-18.31.38:647][180]LogInit: FAudioDevice initialized.
+[2017.03.20-18.31.38:700][180]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.20-18.31.38:703][180]LogWorld: Bringing World /Game/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.03.20-14.31.38
+[2017.03.20-18.31.38:703][180]LogWorld: Bringing up level for play took: 0.000950
+[2017.03.20-18.31.38:716][180]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.03.20-18.31.38:717][180]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.20-18.31.38:717][180]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2017.03.20-18.31.38:721][180]PIE: Info Play in editor start time for /Game/UEDPIE_1_NewMap -0.112
+[2017.03.20-18.31.38:723][180]PIE: New page: PIE session: NewMap (Mar 20, 2017, 10:31:38 AM)
+[2017.03.20-18.31.38:798][180]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2017.03.20-18.31.38:798][180]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.03.20-18.31.38:799][180]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.20-18.31.38:799][180]LogNet: Game client on port 7777, rate 10000
+[2017.03.20-18.31.38:799][180]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
+[2017.03.20-18.31.38:803][180]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.029
+[2017.03.20-18.31.38:820][180]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56824
+[2017.03.20-18.31.38:820][180]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 242029225108045193171163124104060250075011111122216205116114
+[2017.03.20-18.31.38:821][180]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 242029225108045193171163124104060250075011111122216205116114
+[2017.03.20-18.31.38:925][181]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:56824
+[2017.03.20-18.31.38:925][181]LogNet: Server accepting post-challenge connection from: 127.0.0.1:56824
+[2017.03.20-18.31.38:926][181]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.20-18.31.38:926][181]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 03/20/17 14:31:38, [UNetConnection] RemoteAddr: 127.0.0.1:56824, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.20-18.31.38:926][181]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:56824, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.20-18.31.38:926][181]LogNet: NotifyAcceptingChannel Control 0 server World /Game/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.03.20-18.31.38:926][181]LogNet: Remote platform little endian=1
+[2017.03.20-18.31.38:926][181]LogNet: This platform little endian=1
+[2017.03.20-18.31.38:954][182]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=DESKTOP-555TD66-259F588E42CFBF7C9B6764AF26B15E8C userId: DESKTOP-555TD66-259F588E42CFBF7C9B6764AF26B15E8C
+[2017.03.20-18.31.38:956][182]LogNet: Welcomed by server (Level: /Game/UEDPIE_1_NewMap, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2017.03.20-18.31.38:956][182]LogLoad: LoadMap: 127.0.0.1//Game/UEDPIE_1_NewMap?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2017.03.20-18.31.38:972][182]Cmd: MEM
+[2017.03.20-18.31.38:986][182]LogMemory: Platform Memory Stats for Windows
+[2017.03.20-18.31.38:986][182]LogMemory: Process Physical Memory: 1359.40 MB used, 1363.19 MB peak
+[2017.03.20-18.31.38:986][182]LogMemory: Process Virtual Memory: 1921.24 MB used, 1962.89 MB peak
+[2017.03.20-18.31.38:986][182]LogMemory: Physical Memory: 5635.45 MB used,  10648.15 MB free, 16283.60 MB total
+[2017.03.20-18.31.38:986][182]LogMemory: Virtual Memory: 2748.54 MB used,  10648.15 MB free, 134217728.00 MB total
+[2017.03.20-18.31.38:986][182]LogMemory: 
+[2017.03.20-18.31.38:986][182]Allocator Stats for TBB: (not implemented)
+[2017.03.20-18.31.38:994][182]LogAIModule: Creating AISystem for world NewMap
+[2017.03.20-18.31.38:997][182]LogWorld: Bringing World /Game/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.03.20-14.31.38
+[2017.03.20-18.31.38:997][182]LogWorld: Bringing up level for play took: 0.001176
+[2017.03.20-18.31.38:997][182]LogLoad: Took 0.041998 seconds to LoadMap(/Game/UEDPIE_1_NewMap)
+[2017.03.20-18.31.39:017][183]LogNet: Client netspeed is 10000
+[2017.03.20-18.31.39:018][183]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=DESKTOP-555TD66-259F588E42CFBF7C9B6764AF26B15E8C?SplitscreenCount=1
+[2017.03.20-18.31.39:018][183]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.03.20-18.31.39:021][183]LogNet: Join succeeded: DESKTOP-555TD66-259F
+[2017.03.20-18.31.39:063][185]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.03.20-18.31.39:121][189]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.03.20-18.31.45:449][655]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor FirstPersonProjectile_C_0. Function ServerHit will not be processed.
+[2017.03.20-18.32.03:411][153]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.32.03:412][153]LogOnline:Warning: OSS: No game present to leave for session (Game)
+[2017.03.20-18.32.03:457][153]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.32.03:459][153]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2017.03.20-18.32.03:510][153]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56824, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2017.03.20-18.32.03:510][153]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:56824, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.03.20-18.32.03
+[2017.03.20-18.32.03:510][153]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:56824, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2017.03.20-18.32.03:510][153]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2017.03.20-18.32.03:510][153]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.03.20-18.32.03
+[2017.03.20-18.32.03:510][153]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2017.03.20-18.32.03:514][153]LogExit: GameNetDriver None shut down
+[2017.03.20-18.32.03:514][153]LogExit: GameNetDriver None shut down
+[2017.03.20-18.32.03:551][154]LogPlayLevel:Display: Destroying online subsystem :Context_11
+[2017.03.20-18.32.03:551][154]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.32.03:551][154]LogPlayLevel:Display: Destroying online subsystem :Context_10
+[2017.03.20-18.32.03:551][154]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2017.03.20-18.32.12:329][147]LogEditorViewport: Clicking on Actor (LMB): EditorCube_Blueprint_C (EditorCube_Blueprint)
+[2017.03.20-18.32.14:866][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.03.20-18.32.17:516][690]LogEditorViewport: Clicking on Actor (LMB): EditorCube_Blueprint_C (EditorCube_Blueprint)
+[2017.03.20-18.32.18:496][798]Cmd: DELETE
+[2017.03.20-18.32.18:496][798]Cmd: ACTOR DELETE
+[2017.03.20-18.32.18:496][798]LogEditorActor: Deleted Actor: EditorCube_Blueprint_C
+[2017.03.20-18.32.18:506][798]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.03.20-18.32.22:068][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.03.20-18.32.28:308][723]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.03.20-18.32.34:969][168]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.20-18.32.46:182][850]BlueprintLog: New page: Compile FirstPersonProjectile
+[2017.03.20-18.32.48:181][999]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.03.20-18.32.48:197][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.20-18.32.48:199][999]PIE: New page: PIE session: NewMap (Mar 20, 2017, 10:32:48 AM)
+[2017.03.20-18.32.48:199][999]LogPlayLevel: Creating play world package: /Game/UEDPIE_1_NewMap
+[2017.03.20-18.32.48:205][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006572s)
+[2017.03.20-18.32.48:206][999]LogAIModule: Creating AISystem for world NewMap
+[2017.03.20-18.32.48:206][999]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2017.03.20-18.32.48:206][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_1_NewMap.NewMap (0.007639s)
+[2017.03.20-18.32.48:228][999]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.20-18.32.48:236][999]LogInit: FAudioDevice initialized.
+[2017.03.20-18.32.48:301][999]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.20-18.32.48:304][999]LogWorld: Bringing World /Game/UEDPIE_1_NewMap.NewMap up for play (max tick rate 0) at 2017.03.20-14.32.48
+[2017.03.20-18.32.48:304][999]LogWorld: Bringing up level for play took: 0.000978
+[2017.03.20-18.32.48:319][999]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.03.20-18.32.48:319][999]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.20-18.32.48:319][999]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2017.03.20-18.32.48:326][999]PIE: Info Play in editor start time for /Game/UEDPIE_1_NewMap -0.507
+[2017.03.20-18.32.48:328][999]PIE: New page: PIE session: NewMap (Mar 20, 2017, 10:32:48 AM)
+[2017.03.20-18.32.48:401][999]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2017.03.20-18.32.48:401][999]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.03.20-18.32.48:401][999]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.20-18.32.48:401][999]LogNet: Game client on port 7777, rate 10000
+[2017.03.20-18.32.48:401][999]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL
+[2017.03.20-18.32.48:408][999]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.425
+[2017.03.20-18.32.48:435][999]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50945
+[2017.03.20-18.32.48:435][999]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 203201183178232195056012069014167169131226108217042036245044
+[2017.03.20-18.32.48:437][999]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 203201183178232195056012069014167169131226108217042036245044
+[2017.03.20-18.32.48:529][  0]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50945
+[2017.03.20-18.32.48:529][  0]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50945
+[2017.03.20-18.32.48:529][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.20-18.32.48:529][  0]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 03/20/17 14:32:48, [UNetConnection] RemoteAddr: 127.0.0.1:50945, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.20-18.32.48:529][  0]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50945, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.20-18.32.48:529][  0]LogNet: NotifyAcceptingChannel Control 0 server World /Game/UEDPIE_1_NewMap.NewMap: Accepted
+[2017.03.20-18.32.48:529][  0]LogNet: Remote platform little endian=1
+[2017.03.20-18.32.48:529][  0]LogNet: This platform little endian=1
+[2017.03.20-18.32.48:560][  1]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=DESKTOP-555TD66-920230C34918C62CE5146F8457BA8B5A userId: DESKTOP-555TD66-920230C34918C62CE5146F8457BA8B5A
+[2017.03.20-18.32.48:562][  1]LogNet: Welcomed by server (Level: /Game/UEDPIE_1_NewMap, Game: /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C)
+[2017.03.20-18.32.48:563][  1]LogLoad: LoadMap: 127.0.0.1//Game/UEDPIE_1_NewMap?game=/Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode_C
+[2017.03.20-18.32.48:585][  1]Cmd: MEM
+[2017.03.20-18.32.48:601][  1]LogMemory: Platform Memory Stats for Windows
+[2017.03.20-18.32.48:601][  1]LogMemory: Process Physical Memory: 1546.67 MB used, 1550.46 MB peak
+[2017.03.20-18.32.48:601][  1]LogMemory: Process Virtual Memory: 2336.07 MB used, 2336.07 MB peak
+[2017.03.20-18.32.48:601][  1]LogMemory: Physical Memory: 5835.19 MB used,  10448.41 MB free, 16283.60 MB total
+[2017.03.20-18.32.48:601][  1]LogMemory: Virtual Memory: 3175.92 MB used,  10448.41 MB free, 134217728.00 MB total
+[2017.03.20-18.32.48:601][  1]LogMemory: 
+[2017.03.20-18.32.48:601][  1]Allocator Stats for TBB: (not implemented)
+[2017.03.20-18.32.48:607][  1]LogAIModule: Creating AISystem for world NewMap
+[2017.03.20-18.32.48:610][  1]LogWorld: Bringing World /Game/UEDPIE_2_NewMap.NewMap up for play (max tick rate 0) at 2017.03.20-14.32.48
+[2017.03.20-18.32.48:611][  1]LogWorld: Bringing up level for play took: 0.001490
+[2017.03.20-18.32.48:611][  1]LogLoad: Took 0.048857 seconds to LoadMap(/Game/UEDPIE_1_NewMap)
+[2017.03.20-18.32.48:633][  2]LogNet: Client netspeed is 10000
+[2017.03.20-18.32.48:633][  2]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?Name=DESKTOP-555TD66-920230C34918C62CE5146F8457BA8B5A?SplitscreenCount=1
+[2017.03.20-18.32.48:633][  2]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.03.20-18.32.48:636][  2]LogNet: Join succeeded: DESKTOP-555TD66-9202
+[2017.03.20-18.32.48:674][  4]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.03.20-18.32.48:689][  5]LogOnline:Warning: OSS: No game present to join for session (Game)
+[2017.03.20-18.32.50:214][107]LogNet:Warning: UIpNetDriver::ProcesRemoteFunction: No owning connection for actor FirstPersonProjectile_C_0. Function ServerHit will not be processed.
